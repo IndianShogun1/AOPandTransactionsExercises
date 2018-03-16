@@ -10,6 +10,6 @@ public class TransactionMain {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(TransactionConfig.class);
         AccountService accountService = applicationContext.getBean(AccountService.class);
 
-    accountService.Transferamount("pia",100,"payal");
+    accountService.Transferamount("shreyansh",100,"archit");
     }
 }
